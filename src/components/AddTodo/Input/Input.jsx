@@ -1,10 +1,16 @@
 import React from 'react'
 import { StyleSheet, TextInput } from 'react-native'
 
-export const Input = () => {
-
-  return <TextInput style={styles.input}/>
-}
+export const Input = ({ onChangeText, value, placeholder }) => (
+  <TextInput
+    style={styles.input}
+    onChangeText={onChangeText}
+    value={value}
+    placeholder={placeholder}
+    autoCorrect
+    autoCapitalize="characters"
+  />
+)
 
 const styles = StyleSheet.create({
   input: {
@@ -12,6 +18,6 @@ const styles = StyleSheet.create({
     padding: 5,
     borderStyle: 'solid',
     borderBottomWidth: 2,
-    borderBottomColor: '#3949ab'
-  }
+    borderBottomColor: '#3949ab',
+  },
 })

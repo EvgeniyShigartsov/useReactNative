@@ -2,9 +2,9 @@ import React from 'react'
 import { View, Text, StyleSheet } from 'react-native'
 
 export const Navbar = ({ title }) => (
-    <View style={styles.navbar}>
-      <Text style={styles.text}>{title}</Text>
-    </View>
+  <View style={styles.navbar}>
+    <Text style={styles.text}>{title}</Text>
+  </View>
 )
 
 const styles = StyleSheet.create({
@@ -18,5 +18,5 @@ const styles = StyleSheet.create({
   text: {
     color: 'white',
     fontSize: 20,
-  }
+  },
 })
