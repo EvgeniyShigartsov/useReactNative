@@ -32,12 +32,14 @@
                 "classes": true,
                 "variables": false
             }
-        ],
-        "react/style-prop-object": [
-            "enabled",
-            {
-            "allow": ["string", "object"]
-          }
         ]
     }
 }
+
+// ,
+//         "react/style-prop-object": [
+//             "enabled",
+//             {
+//             "allow": ["StatusBar", "object"]
+//           }
+//         ]

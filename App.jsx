@@ -1,3 +1,4 @@
+/* eslint-disable react/style-prop-object */
 import { StatusBar } from 'expo-status-bar';
 import React, { useState } from 'react';
 import { StyleSheet, View } from 'react-native';
